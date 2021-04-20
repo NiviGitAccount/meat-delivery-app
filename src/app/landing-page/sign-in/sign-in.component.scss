@@ -1,0 +1,35 @@
+@import "../../styles/variables";
+.card-wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center{
+    width: fit-content;
+    margin: 10px auto;
+  }
+
+  .title-font{
+    font-family: 'Amatic SC';
+    text-align: center;
+    color: $orange;
+  }
+
+  .btn-block{
+    background-color: $orange;
+    color: #ECF0F2;
+    width: fit-content;
+    border-radius: 20px;
+  }
+
+  .forget-pwd{
+    position: absolute;
+    right: 12px;
+    font-size: smaller;
+  }
+
+  .new_account{
+      position:relative;
+      top:8px;
+  }

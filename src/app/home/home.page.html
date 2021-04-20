@@ -1,7 +1,12 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
+  <ion-toolbar class="white-gradiant">
+    <ion-buttons slot="secondary">
+      <ion-button class="icon-size">
+        <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title class="title-font font-weight-bold">
+      Meat Delivery
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +14,195 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Meat Delivery App</ion-title>
     </ion-toolbar>
   </ion-header>
+  
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-4 offset-lg-8">
+          <mat-button-toggle-group #group="matButtonToggleGroup" class="toggle-grp mr-3 mt-4 float-right">
+            <mat-button-toggle value="chicken" class="toggle-btn">
+              <i class="fas fa-drumstick-bite font-size-x-large"></i>Chicken
+            </mat-button-toggle>
+            <mat-button-toggle value="mutton" class="toggle-btn">
+              <img class="goat" alt="goat.png" src="assets/icon/goat.png"/>Mutton
+            </mat-button-toggle>
+            <mat-button-toggle value="mutton" class="toggle-btn">
+              Both
+            </mat-button-toggle>
+          </mat-button-toggle-group>
+        </div>
+    </div>
+   <div class="row">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <div class="col-12">
+      <div class="flex-container">
+        <ion-card>
+          <ion-card-header>
+            <img src="assets/products/boneless.jpeg" class="center-img card-img"/>
+            <ion-card-title>Chicken Boneless</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <div class="row">
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Net :</span> 250-270 Gms
+              </span>
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Gross :</span> 250 Gms
+              </span>
+            </div>
+            <div class="row mt-3">
+              <div  class="col-md-6 col-6 orangeClr font-weight-bold">&#8377;1000</div>
+              <div class="col-md-6 col-6">
+                <button mat-raised-button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card>
+          <ion-card-header>
+            <img src="assets/products/boneless.jpeg" class="center-img card-img"/>
+            <ion-card-title>Chicken Boneless</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <div class="row">
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Net :</span> 250-270 Gms
+              </span>
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Gross :</span> 250 Gms
+              </span>
+            </div>
+            <div class="row mt-3">
+              <div  class="col-md-6 col-6 orangeClr font-weight-bold">&#8377;1000</div>
+              <div class="col-md-6 col-6">
+                <button mat-raised-button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card>
+          <ion-card-header>
+            <img src="assets/products/boneless.jpeg" class="center-img card-img"/>
+            <ion-card-title>Chicken Boneless</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <div class="row">
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Net :</span> 250-270 Gms
+              </span>
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Gross :</span> 250 Gms
+              </span>
+            </div>
+            <div class="row mt-3">
+              <div  class="col-md-6 col-6 orangeClr font-weight-bold">&#8377;1000</div>
+              <div class="col-md-6 col-6">
+                <button mat-raised-button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card>
+          <ion-card-header>
+            <img src="assets/products/boneless.jpeg" class="center-img card-img"/>
+            <ion-card-title>Chicken Boneless</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <div class="row">
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Net :</span> 250-270 Gms
+              </span>
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Gross :</span> 250 Gms
+              </span>
+            </div>
+            <div class="row mt-3">
+              <div  class="col-md-6 col-6 orangeClr font-weight-bold">&#8377;1000</div>
+              <div class="col-md-6 col-6">
+                <button mat-raised-button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card>
+          <ion-card-header>
+            <img src="assets/products/boneless.jpeg" class="center-img card-img"/>
+            <ion-card-title>Chicken Boneless</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <div class="row">
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Net :</span> 250-270 Gms
+              </span>
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Gross :</span> 250 Gms
+              </span>
+            </div>
+            <div class="row mt-3">
+              <div  class="col-md-6 col-6 orangeClr font-weight-bold">&#8377;1000</div>
+              <div class="col-md-6 col-6">
+                <button mat-raised-button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card>
+          <ion-card-header>
+            <img src="assets/products/boneless.jpeg" class="center-img card-img"/>
+            <ion-card-title>Chicken Boneless</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <div class="row">
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Net :</span> 250-270 Gms
+              </span>
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Gross :</span> 250 Gms
+              </span>
+            </div>
+            <div class="row mt-3">
+              <div  class="col-md-6 col-6 orangeClr font-weight-bold">&#8377;1000</div>
+              <div class="col-md-6 col-6">
+                <button mat-raised-button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </ion-card-content>
+        </ion-card>
+        <ion-card>
+          <ion-card-header>
+            <img src="assets/products/boneless.jpeg" class="center-img card-img"/>
+            <ion-card-title>Chicken Boneless</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <div class="row">
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Net :</span> 250-270 Gms
+              </span>
+              <span class="col-md-6 col-6">
+                <span class="font-weight-bold">Gross :</span> 250 Gms
+              </span>
+            </div>
+            <div class="row mt-3">
+              <div  class="col-md-6 col-6 orangeClr font-weight-bold">&#8377;1000</div>
+              <div class="col-md-6 col-6">
+                <button mat-raised-button class="btn-cart">Add to Cart</button>
+              </div>
+            </div>
+          </ion-card-content>
+        </ion-card>
+        
+      </div>
+    </div>
+    
+   </div>
   </div>
 </ion-content>

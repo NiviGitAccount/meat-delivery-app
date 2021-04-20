@@ -1,5 +1,7 @@
 {
   "name": "meat-delivery-app",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

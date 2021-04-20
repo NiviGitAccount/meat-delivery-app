@@ -24,3 +24,46 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+@import "./app/styles/variables";
+
+.width-300{
+    width: 300px !important; 
+}
+
+.txt-align-center{
+    text-align: center !important;
+}
+
+.orangeClr{
+    color:#F06A7A !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.cursor-pointer{
+  cursor: pointer;  
+}
+
+.font-size-x-large{
+  font-size: x-large;
+}
+
+.white-gradiant{
+  background-image: linear-gradient(to right top, #a4b5cd, #b3c4d6, #c5d3df, #d8e2e8, #ecf0f2);
+}
+
+.center-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

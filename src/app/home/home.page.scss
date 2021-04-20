@@ -1,3 +1,11 @@
+@import "../styles/variables";
+
+ion-toolbar {
+  --background: linear-gradient(to right top,#ecf0f2,#d8e2e8,#c5d3df,#b3c4d6,#a4b5cd) !important;
+  --color:#ECF0F2;
+}
+
+
 #container {
   text-align: center;
 
@@ -24,4 +32,65 @@
 
 #container a {
   text-decoration: none;
+}
+
+.title-font{
+  font-family: $title-font-fam;
+  color: $orange;
+  font-size: xx-large;
+}
+
+.icon-size{
+  width:68px !important;
+  font-size: xx-large;
+}
+
+.goat{
+  width: 30px;
+}
+
+.toggle-grp{
+  border-radius: 25px !important;
+}
+
+.toggle-btn{
+  background:$white;
+}
+
+.mat-button-toggle-checked {
+  background-color:$orange;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+ion-card{
+  width:310px !important;
+  background-image: linear-gradient(to bottom, #eaeff9, #edf3fa, #f0f7fb, #f5fafd, #fafdfe);
+}
+
+.card-img{
+  height:180px;
+}
+
+.content-flex-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-cart{
+  background-color: $orange;
+    color: #ECF0F2;
+    width: fit-content;
 }
